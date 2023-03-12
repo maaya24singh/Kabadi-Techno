@@ -1,0 +1,214 @@
+.about_comp1{
+   display:flex;
+   flex-direction: column;
+   margin-top:50px;
+}
+.about_comp1_con,
+.about_comp1_con_2{
+   display:flex;
+   margin:20px 0px 20px 0px;
+   color:white;
+   align-items: center;
+}
+
+.about_comp1_head{
+    width:30%;
+    height:250px;
+    text-align: center;
+    background-image: url(../../asserts/about_comp1.png);
+    background-size: cover;
+    padding:70px;
+    font-size:1.8rem;
+}
+.about_comp1_desc{
+  width:70%;
+  height:250px;
+   border:1px solid rgb(33, 82, 6);
+   background: linear-gradient(138deg , rgb(120, 211, 71), rgb(33, 82, 6));
+   padding:60px;
+   font-size:1.5rem;
+}
+.about_comp_certificate{
+    margin: 60px 0px 60px 0px;
+    color: rgb(89, 89, 89);
+    text-align: center;
+    font-size:2rem;
+}
+.about_comp1_certificate{
+   margin:60px 0px 50px 0px;
+   width:100%;
+   height:100%;
+}
+
+.about_comp2{
+  background-image: url(../../asserts/about_comp2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.about_comp2_con{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about_comp2_con h3{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    width:80%;
+}
+.about_comp2_con p{
+  line-height: 1.5;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.about_comp2 h1{
+   font-size: 2.8rem;
+   color:white;
+   padding: 50px 0px 50px 0px;
+   text-align: center;
+}
+.about_comp2_polygon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(50% 0px, 100% 25%, 100% 75%, 50% 100%, 0px 75%, 0px 25%);
+  width: 30%;
+  max-width: 400px;
+  flex-direction: column;
+  color:white;
+  text-align: center;
+  height: 400px;
+  background: linear-gradient(rgb(120, 211, 71), rgb(33, 82, 6));
+  padding: 100px 0px;
+  margin: 20px 10px;
+}
+.about_comp3{
+  display:flex;
+  align-items: center;
+  text-align: center;
+  color:white;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.about_comp3_text{
+  width: 50%;
+  flex:1;
+  height:44vh;
+  background-image: url(../../asserts/component.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.about_comp3_text h2{
+  font-size: 2.8rem;
+  margin:80px;
+}
+.about_comp3_desc{
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  height:44vh;
+  align-items: center;
+  background: linear-gradient(138deg, #78d347, #1c4b03);
+}
+.about_comp3_desc p{
+  padding:50px;
+  font-size:1.5rem;
+  font-weight: 600;
+}
+.about_comp3_desc button{
+  width: 180px;
+  height:55px;
+  box-shadow: 0 0 20px #1c4b03;
+  background:#53b115;
+  border-radius:40px;
+  border:3px solid white;
+  color: white;
+}
+.about_comp3_desc a{
+  text-decoration: none;
+  font-size:1.3rem;
+  font-weight: 500;
+  color:white;
+}
+.about_comp3_desc button:hover{
+  background-color: #05242a;
+ cursor: pointer;
+}
+@media (max-width :1000px){
+     .about_comp2_con{
+       justify-content: space-evenly;
+     }
+     .about_comp2_polygon{
+       width:45%;
+     }
+}
+@media (max-width :780px){
+  .about_comp1_head{
+    padding:40px;
+    font-size:1.4rem;
+  }
+  .about_comp1_desc{
+    font-size:1.2rem;
+  }
+  .about_comp3_desc p{
+    padding:50px;
+    font-size:1.2rem;
+  }
+  .about_comp3_desc button{
+    width: 150px;
+    height:50px;
+  }
+}
+@media (max-width:565px){
+  .about_comp2_polygon{
+    width:80%;
+  }
+  .about_comp1_head{
+    width:100%;
+    height:auto;
+    background-image: none;
+    background-color:  #05242a;
+  }
+  .about_comp1_con{
+    flex-direction: column;
+  }
+  .about_comp1_con_2{
+    flex-direction:column-reverse;
+  }
+  .about_comp1_desc{
+    width:100%;
+    height:auto;
+  }
+  .about_comp3{
+    flex-direction: column;
+  }
+  .about_comp3_text{
+    width:100%;
+    height:auto;
+    background-image: none;
+    background-color:  #05242a;
+  }
+  .about_comp3_text h2{
+    margin:30px;
+  }
+  .about_comp3_desc{
+    height:auto;
+    padding:40px;
+    font-size:1.2rem;
+  }
+  .about_comp3_desc p{
+    padding:20px;
+  }
+}
+@media (max-width:429px) {
+  .about_comp2{
+    padding:0px;
+  }
+  .about_comp2_polygon{
+    width:80%;
+  }
+}

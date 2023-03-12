@@ -1,0 +1,61 @@
+.joinUs_head{
+  width:100%;
+  height:75vh;
+  background-image: url(../../asserts/joinus_head.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-color: white;
+}
+.joinUs_head_desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0px 60px 0px;
+}
+.joinUs_head_desc h1{
+   color:white;
+   font-size:2.5rem;
+   padding-bottom: 20px;
+}
+.joinUs_head_desc h3{
+  color:white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-top: 10px;
+  letter-spacing:1px;
+
+}
+.joinUs_head_desc p{
+   padding-top: 40px;
+   color:rgb(86, 177, 36);
+   font-size: 1.1rem;
+}
+@media (max-width:480px){
+  .joinUs_head{
+    height:80vh;
+  }
+  .joinUs_head_desc{
+    margin:50px;
+  }
+  .joinUs_head_desc h1{
+     font-size:2rem;
+   }
+   .joinUs_head_desc h3{
+     font-size: 1.3rem;
+   }
+}
+@media (max-width:270px){
+  .joinUs_head_desc h1{
+     font-size:1.8rem;
+   }
+   .joinUs_head_desc h3{
+     font-size: 1.1rem;
+   }
+   .joinUs_head_desc p{
+     font-size:0.8rem;
+   }
+   .joinUs_head_desc{
+     margin:30px;
+   }
+}

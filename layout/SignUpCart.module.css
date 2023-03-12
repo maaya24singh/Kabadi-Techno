@@ -1,0 +1,108 @@
+
+.signupBack_type{
+  margin-top: 0px;
+  margin-right: 0px;
+  height:auto;
+  background-image: url(../asserts/background.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size:50% 100%;
+}
+.sign_up_type{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+.sign_up_section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   flex:1;
+   width:100%;
+   padding: 50px 0px;
+}
+.sign_up_section h1{
+   margin-bottom: 30px;
+   color: rgb(5, 36, 42);
+   text-align: center;
+   font-size: 2.2rem;
+}
+.sign_up_section p{
+   color: rgb(136, 136, 136);
+    text-align: center;
+    width: 80%;
+    font-size: 1.1rem;
+    margin: 30px 0px;
+}
+.sign_up_section_link{
+  margin-right: auto;
+  color: rgb(5, 36, 42);
+  margin-bottom: 70px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sign_up_type_animate{
+  flex:1;
+  z-index:10;
+  margin-top:25%;
+}
+.sign_up_type_animate h1{
+  color: white;
+  font-size:5rem;
+  font-weight: 400;
+  white-space: pre-wrap;
+  font-weight:lighter;
+ font-family: "Edwardian Script ITC";
+ position: static;
+ overflow: hidden;
+ white-space: nowrap;
+ animation: text 6s steps(45, end) forwards;
+}
+.sign_up_type_animate h1:nth-child(1){
+    animation-delay: 0s;
+}
+.sign_up_type_animate h1:nth-child(2){
+    animation-delay: 3s;
+}
+@media (max-width :1005px){
+  .sign_up_type_animate h1{
+    font-size: 4.2rem;
+  }
+
+}
+@media (max-width :898px){
+  .sign_up_type_animate h1{
+    font-size:3.5rem;
+  }
+  .sign_up_type_animate{
+    margin-top:40%;
+  }
+}
+@media (max-width :750px){
+  .signupBack_type{
+    height: auto;
+    background-position:bottom;
+    background-size:100% 70vh;
+    padding-bottom: 170px;
+}
+.sign_up_type{
+    flex-direction: column;
+  }
+  .sign_up_type_animate{
+    margin-top:15%;
+  }
+  .sign_up_type_animate h1{
+    font-size:4.2rem;
+  }
+}
+@media (max-width:450px){
+  .signupBack_type{
+    background-size:100% 60vh;
+    padding-bottom: 170px;
+}
+  .sign_up_type_animate h1{
+    font-size:3.2rem;
+  }
+}

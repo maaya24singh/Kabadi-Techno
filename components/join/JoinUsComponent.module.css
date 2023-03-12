@@ -1,0 +1,227 @@
+.join_us_items{
+   margin-top:30px;
+}
+.join_us_items_con{
+    display:flex;
+    flex-direction: column;
+}
+.join_us_items_wrapper{
+    display:flex;
+    text-align: center;
+    color:white;
+    margin-bottom:50px;
+}
+.join_us_items_text{
+    width: 50%;
+    flex:1;
+    height:48vh;
+    background-image: url(../../asserts/component.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.join_us_items_text h2{
+    font-size: 2.5rem;
+    margin:100px 150px 120px 150px;
+}
+.join_us_items_about{
+  height: 48vh;
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  align-items: center;
+  background: linear-gradient(138deg, #78d347, #1c4b03);
+  padding:40px;
+}
+.join_us_items_about p{
+  margin-top:50px;
+  margin-bottom:10px;
+  font-size:1.5rem;
+}
+.join_us_items_about button{
+  width: 180px;
+  height:55px;
+  box-shadow: 0 0 20px #1c4b03;
+  background:#53b115;
+  border-radius:40px;
+  border:3px solid white;
+  color: white;
+  font-size:1.3rem;
+  font-weight: 500;
+}
+.join_us_items_about button:hover{
+   background-color: #05242a;
+  cursor: pointer;
+}
+.join_us_description{
+    padding:30px 100px 30px 100px;
+    font-size: 1.3rem;
+    color:rgb(85, 85, 85);
+    line-height: 1.5;
+}
+.join_us_items_details{
+    color:rgb(136, 136, 136);
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+.join_us_form{
+   margin-top:40px;
+   margin-bottom: 100px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   width:100%;
+}
+.join_us_form_com{
+   display:flex;
+   justify-content: center;
+   width:100%;
+}
+.form_div{
+  position:relative;
+  height:55px;
+  width:50%;
+  margin-bottom:25px;
+}
+.input_text{
+  position:absolute;
+  left:1rem;
+  top:1rem;
+  color:grey;
+  padding: 0 .25rem;
+  font-size:18px;
+  transition: .3s;
+  background-color: white;
+}
+.join_us_form_input{
+  width:400px;
+  padding:15px 20px 20px 20px;
+  border-radius:30px;
+  border:1px solid grey;
+  margin:0px 20px 20px 0px;
+  font-size:1rem;
+  outline: 0;
+}
+.join_us_form_select_div{
+  width:400px;
+  padding:13px;
+  border-radius:30px;
+  border:1px solid grey;
+  margin:0px 20px 20px 0px;
+  cursor: pointer;
+}
+.join_us_form_select_div:hover{
+  border:2px solid #53b115;
+}
+.join_us_form_select{
+  width: 100%;
+  background-color:white;
+  border:none;
+  font-size: 1.2rem;
+  color:grey;
+  outline:none;
+  cursor: pointer;
+}
+.join_us_form_select:focus{
+  border:none;
+}
+.input_text:hover{
+  cursor: text;
+}
+.join_us_form_input:focus + .input_text{
+  top: -.8rem;
+  left: .8rem;
+  color:#53b115;
+  font-size:14px;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.join_us_form_input:focus{
+  border:2px solid #53b115;
+}
+
+input[type=password]:focus{
+   border-color:#53b115;
+}
+
+.join_us_form_btn2{
+  width: 160px;
+  height:50px;
+  box-shadow: 0 0 20px #BDC3C7;
+  background:#53b115;
+  border-radius:40px;
+  border:2px solid white;
+  color: white;
+  font-size:17px;
+  font-weight: 500;
+}
+.join_us_form_btn2:hover{
+  cursor: pointer;
+  background-color:#05242a;
+}
+.join_us_form_btn1{
+  width:400px;
+  padding:15px 20px 20px 20px;
+  border-radius:30px;
+  border:none;
+  margin:0px 20px 20px 0px;
+  font-size:1rem;
+  background-color: rgb(255, 115, 115);
+  color:white;
+  text-align: center;
+}
+.join_us_form_btn1_input{
+  display: none;
+}
+@media (max-width: 1000px){
+  .join_us_form_com{
+    flex-direction: column;
+
+  }
+}
+@media (max-width:785px) {
+  .join_us_items_about p{
+    font-size:1.2rem;
+  }
+  .join_us_items_about button{
+    width: 150px;
+    height:50px;
+  }
+  .join_us_items_text h2{
+      font-size: 2rem;
+      margin:70px 50px 30px 50px;
+    }
+}
+@media (max-width:535px){
+  .join_us_items_wrapper{
+    flex-direction: column;
+    margin-bottom:30px;
+  }
+  .join_us_items_text{
+    width:100%;
+    background-image: none;
+    background-color:#05242a;
+  }
+  .join_us_description{
+    padding: 0px 30px;
+    font-size: 1.1rem;
+  }
+  .join_us_items_details{
+    font-size: 1rem;
+  }
+}
+@media (max-width:480px){
+  .form_div{
+    width:100%;
+  }
+  .join_us_form_input{
+    width:100%;
+  }
+  .join_us_form_btn1{
+    width:100%;
+  }
+  .join_us_form_select_div{
+    width:100%;
+  }
+}

@@ -1,0 +1,44 @@
+.error_module{
+   padding: 50px 50px 40px 50px;
+}
+.error_module h1{
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: "Noto Serif", serif;
+}
+.error_module_pin{
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.error_module_pin span{
+    color: rgb(0, 0, 255);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.error_module_location{
+    text-align: center;
+    margin-top: 30px;
+}
+.error_module_location p{
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.error_module_location span{
+  font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+.error_module_p{
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px 0px 70px;
+}
+.error_module_p span{
+  color: rgb(86, 177, 36);
+  font-weight: bold;
+}
