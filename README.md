@@ -4,4 +4,4 @@ It is a hyperlocal platform to connect the waste producers to the waste collecto
 This project is made during the internship.
 <br>
 <br>
-Link:- https://kabadi-0.netlify.app/home
+Link:- https://kabadi-0.netlify.app/
